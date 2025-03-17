@@ -15,14 +15,25 @@ function App() {
         >
           Welcome to <span className="text-yellow-400">Narada-AI</span>
         </motion.h1>
+        
         <motion.p
-          className="mt-4 text-lg max-w-2xl"
+          className="mt-4 text-4xl font-bold text-yellow-300 max-w-2xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
         >
-          The cloud-powered AI recommendation engine that guides you toward the right choices.
+          Your Data, Your Recommendations
         </motion.p>
+
+        <motion.p
+          className="mt-4 text-lg max-w-2xl"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.4 }}
+        >
+          The cloud-powered AI recommendation engine
+        </motion.p>
+      
         <motion.div
           className="w-72 mt-6"
           initial={{ scale: 0.8, opacity: 0 }}
